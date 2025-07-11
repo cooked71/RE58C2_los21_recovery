@@ -1,4 +1,4 @@
-# Android TWRP device tree for Realme RMX3760 C53 (RE58C2) 
+# Android lineage/twrp device tree for Realme RMX3760 C53 (RE58C2) 
 
 ![image](https://github.com/user-attachments/assets/0e5fcf03-6e6f-4e4a-9194-0b000626e45a)
 
