@@ -10,3 +10,8 @@
 | CPU  | Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55) |
 | GPU  | Mali-G57 |
 
+clone into ../device/realme/
+. build/envsetup.sh
+breakfast twrp_RE58C2
+mka vendorbootimage
+
