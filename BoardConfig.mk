@@ -10,21 +10,19 @@ DEVICE_PATH := device/realme/RE58C2
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# A/B
+# A/B partitions
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
     system \
+    system_ext \
     product \
     vendor \
     odm \
-    odm_dlkm \
     vbmeta \
     vendor_boot \
-    vendor_dlkm \
-    vbmeta_system \
-    vbmeta_vendor
+    vendor_dlkm 
 
 
 #vendor_boot configuration
