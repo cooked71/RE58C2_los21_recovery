@@ -73,8 +73,8 @@ AB_OTA_UPDATER := true
 PRODUCT_TARGET_VNDK_VERSION := 33
 PRODUCT_SHIPPING_API_LEVEL := 32
 
-# A/B
-
+#set fastbotd permissive
+PRODUCT_PACKAGES += fastbootd
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
