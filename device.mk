@@ -73,6 +73,10 @@ AB_OTA_UPDATER := true
 PRODUCT_TARGET_VNDK_VERSION := 33
 PRODUCT_SHIPPING_API_LEVEL := 32
 
+#set logcat
+PRODUCT_PACKAGES += logcat
+
+
 #set fastbotd permissive
 PRODUCT_PACKAGES += fastbootd
 
