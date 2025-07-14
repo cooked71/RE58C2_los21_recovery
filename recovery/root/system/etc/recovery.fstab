@@ -39,7 +39,6 @@
 /dev/block/by-name/cache /cache f2fs noatime,nosuid,nodev,discard wait,check,formattable
 /dev/block/by-name/cache /cache ext4 noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc wait,check,formattable
 # Removable storage
-/external_sd           vfat     /dev/block/mmcblk1p1  /dev/block/mmcblk1  flags=display="external_sd";storage;wipeingui;removable;fsflags="utf8"
-/usb-otg               vfat     /dev/block/sda1  /dev/block/sda           flags=display="usb-otg";storage;wipeingui;removable;fsflags="utf8"
-
+/devices/platform/soc/soc:*/*.usb/musb-hdrc.*.auto/usb*                      auto    vfat    defaults      voldmanaged=usbdisk:auto
+/devices/platform/soc/soc:ap-*/*.sdio/mmc_host/mmc1/mmc1:*/block/mmcblk1     auto    vfat    defaults      voldmanaged=sdcard0:auto,noemulatedsd,encryptable=footer
 
