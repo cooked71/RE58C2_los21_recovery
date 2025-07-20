@@ -76,6 +76,9 @@ PRODUCT_SHIPPING_API_LEVEL := 32
 #set logcat
 PRODUCT_PACKAGES += logcat
 
+#selinux permissive
+PRODUCT_PROPERTY_OVERRIDES += ro.boot.selinux=permissive
+
 
 #set fastbotd permissive
 PRODUCT_PACKAGES += fastbootd
